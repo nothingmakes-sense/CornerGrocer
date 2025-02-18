@@ -24,8 +24,8 @@
 
 > Example Images of the working application.
 
-![menu](/images/menu.png)
+![menu](/images/menu.PNG)
 
-![listAll](/images/listAll.png)
+![listAll](/images/listAll.PNG)
 
-![listHisto](/images/listHisto.png)
+![listHisto](/images/listHisto.PNG)
