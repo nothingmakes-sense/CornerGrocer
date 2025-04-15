@@ -1,3 +1,79 @@
+# Corner Grocer
+
+Corner Grocer is a C++ application developed to help grocery store owners track the frequency of items sold. The program processes a file containing records of items sold and provides functionalities such as listing all items sold, generating a histogram of sales, and more.
+
+---
+
+## Features
+
+- **List All Items:** Displays all items sold along with their respective counts.
+- **Histogram Generation:** Visualizes item frequencies in a histogram format.
+- **User-Friendly Menu:** Interactive menu for navigating through functionalities.
+
+---
+
+## Example Screenshots
+
+### Main Menu
+![Menu](images/menu.PNG)
+
+### List All Items
+![List All](images/listAll.PNG)
+
+### Histogram
+![Histogram](images/listHisto.PNG)
+
+---
+
+## Installation
+
+### Prerequisites
+
+- **C++ Compiler:** Ensure you have a modern C++ compiler installed (e.g., `g++`, `clang`).
+- **Build Tools:** Tools like `make` or an IDE such as Visual Studio.
+- **Operating System:** Compatible with Windows, macOS, or Linux.
+
+### Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/nothingmakes-sense/CornerGrocer.git
+   cd CornerGrocer
+   ```
+
+2. **Compile the Program**
+   - Using `g++`:
+     ```bash
+     g++ -o CornerGrocer main.cpp
+     ```
+   - Using Visual Studio:
+     - Open the project in Visual Studio.
+     - Build the solution.
+
+3. **Run the Program**
+   ```bash
+   ./CornerGrocer
+   ```
+
+4. **Input File**
+   - Ensure the input file (e.g., `sales_data.txt`) is in the same directory as the compiled binary.
+
+---
+
+## Usage
+
+- Follow the on-screen menu to select functionalities.
+- Input the file containing sales data when prompted.
+
+---
+
+## Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+---
+## QA
+
 *Summarize the project and what problem it was solving.*
 
 > The project is an application for the supposed client Corner Grocer. The application receives a file that has the items sold in chronological and Corner Grocer wants to see how many of the items it sold for remodeling purposes.
